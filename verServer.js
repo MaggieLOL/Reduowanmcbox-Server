@@ -8,7 +8,7 @@
 const http          = require("http");
 const { exit } = require("process");
 const androidVER    = "0"
-const pcmcboxVER    = "B0.9.3"
+const pcmcboxVER    = "B1.0.0"
 const iphoneVER     = "B0.1.1"
 const linuxVER      = iphoneVER
 const macOSVER      = linuxVER
