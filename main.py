@@ -52,7 +52,7 @@ def assets(cap_id):
 def restiger():
     args=flask.request.args
     try:
-        if !captchaAuth(args["captcha-uuid"]):
+        if not captchaAuth(args["captcha-uuid"]):
             return ({"code":500,"text":"错误：非法的人机验证鉴权码"},500)
         name=args['name']
         if name == "" or len(name) >= 24:
